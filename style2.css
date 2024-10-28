@@ -1,0 +1,96 @@
+body {
+    background-color: #2a2727; /* Dark background */
+    color: #f5f5f5; /* Light text color */
+    font-family: Arial, sans-serif; /* Elegant sans-serif font */
+  }
+
+.container {
+    max-width: 800px; /* Limit container width */
+    margin: 50px auto; /* Center the container */
+    border: 2px solid #ff0000; /* Red border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    position: absolute; /* Position the container within the background image */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the container horizontally and vertically */
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid #ff0000; /* Red underline */
+    padding-bottom: 5px;
+    color: #fff; /* White text color */
+  }
+  
+  table {
+    background-color: #333333; /* Darker table background */
+    color: #fff; /* White text color */
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    border: 1px solid #808080; /* Gray border */
+    text-align: left;
+  }
+  
+  th {
+    background-color: #444444; /* Even darker for headers */
+  }
+  
+  .form-control {
+    background-color: #444444; /* Darker input background */
+    color: #fff; /* White text color */
+    border: 1px solid #808080; /* Gray border */
+    padding: 5px;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .btn-primary,
+  .btn-danger,
+  .btn-success,
+  .btn-info {
+    background-color: transparent; /* Transparent buttons */
+    color: #f5f5f5; /* Light text color */
+    border: 1px solid #808080; /* Gray border */
+    padding: 5px 10px;
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  .btn-primary:hover,
+  .btn-danger:hover,
+  .btn-success:hover,
+  .btn-info:hover {
+    background-color: #ff6600; /* Red background on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
+  .btn-danger {
+    border-color: #ff0000; /* Red border for danger button */
+  }
+  
+  .btn-danger:hover {
+    background-color: #990000; /* Darker red on hover */
+  }
+  
+  .btn-success {
+    border-color: #00ff00; /* Green border for success button */
+  }
+  
+  .btn-success:hover {
+    background-color: #00cc00; /* Darker green on hover */
+  }
+  
+  .btn-info {
+    border-color: #00ffff; /* Blue border for info button */
+  }
+  
+  .btn-info:hover {
+    background-color: #00cccc; /* Darker blue on hover */
+  }

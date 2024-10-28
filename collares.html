@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/css/bootstrap.css">
+  <title>Grid de Cards</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+      padding: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .card-img-top {
+      width: auto;
+      height: auto;
+      object-fit: cover;
+    }
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-container">
+      <!-- Repite este bloque para las 9 celdas -->
+      <div class="card">
+        <img src="images/collares/collar1.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/collares/collar2.jpg" class="card-img-top" alt="Imagen 2">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+          <i class="bi bi-cart"></i>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/collares/collar3.jpg" class="card-img-top" alt="Imagen 3">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/collares/collar4.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/collares/collar5.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/collares/collar6.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/collares/collar7.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

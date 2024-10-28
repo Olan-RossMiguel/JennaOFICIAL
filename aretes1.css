@@ -1,0 +1,30 @@
+.card {
+    background-color: #f8f9fa; /* Color de fondo gris claro */
+    border-color: #e9ecef; /* Color de borde gris claro */
+  }
+
+  .card-title {
+    font-size: 18px; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+  }
+
+  .card-text {
+    color: #6c757d; /* Color de texto gris oscuro */
+  }
+
+  .card {
+    margin-bottom: 20px; /* Margen inferior entre tarjetas */
+  }
+
+  .card-body {
+    padding: 25px; /* Mayor espacio de relleno alrededor del contenido */
+  }
+
+  .card {
+    border-radius: 5px; /* Bordes redondeados */
+  }
+
+  .card {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+  }
+  

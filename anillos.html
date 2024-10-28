@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid de Cards</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+      padding: 20px;
+    }
+    .card {
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .card-body {
+      padding: 20px;
+    }
+    .card-img-top {
+      width: auto;
+      height: auto;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="grid-container">
+      <!-- Repite este bloque para las 9 celdas -->
+      <div class="card">
+        <img src="images/anillo/anillo1.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+          <i class="bi bi-cart"></i>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+          </svg>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo2.jpg" class="card-img-top" alt="Imagen 2">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo3.png" class="card-img-top" alt="Imagen 3">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo4.webp" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo5.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo6.webp" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo7.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo8.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/anillo/anillo9.jpg" class="card-img-top" alt="Imagen 1">
+        <div class="card-body">
+          <h5 class="card-title">Título de la tarjeta</h5>
+          <p class="card-text">Descripción breve de la tarjeta.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control</title>
+    <link href="css/css/bootstrap.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                
+                
+            </div>
+            <div class="col-6">
+                <hr>
+                <h2></h2>
+                <form id="frmOpcion" action="Opcion.php" method="post">
+                    <table class="table table-success table-striped table-bordered table-hover">
+                        <tr>
+                            <td>
+                                *idOpcion:
+                            </td>
+                            <td>
+                                <input id="id_control" name="id_control" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *idPedidos:
+                            </td>
+                            <td>
+                                <input id="idPedidos" name="idPedidos" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *idProductos:
+                            </td>
+                            <td>
+                                <input id="idProductos" name="idProductos" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *idProveedor:
+                            </td>
+                            <td>
+                                <input id="idProveedor" name="idProveedor" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *idVentas:
+                            </td>
+                            <td>
+                                <input id="idVentas" name="idVentas" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="Guardar" name="Guardar" type="submit" value="Guardar" class="btn btn-primary btn-mini">
+                            </td>
+                            <td>
+                                <input id="Borrar" type="reset" value="Borrar" class="btn btn-danger btn-mini">
+                            </td>
+                                
+                        </tr>
+                    </table>
+                    <!-- Botón para eliminar -->
+                    <button type="button" onclick="enviarFormulario('Eliminaropcion.php')" class="btn btn-danger btn-mini">Eliminar</button>
+                    <!-- Botón para actualizar -->
+                    <button type="button" onclick="enviarFormulario('Updateopcion.php')" class="btn btn-success btn-mini">Actualizar</button>
+                    <!-- Botón para consultar -->
+                    <button type="button" onclick="enviarFormulario('Consultaopcion.php')" class="btn btn-info btn-mini">Consultar</button>
+                </form>
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+    <script>
+        function enviarFormulario(url) {
+            // Obtener el formulario
+            var form = document.getElementById("frmOpcion");
+            // Establecer la acción del formulario al URL deseado
+            form.action = url;
+            // Enviar el formulario
+            form.submit();
+        }
+    </script>
+</body>
+</center>
+</html>

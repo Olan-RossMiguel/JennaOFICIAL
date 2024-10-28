@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos</title>
+    <link href="css/css/bootstrap.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+    <center>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col">
+                
+                
+            </div>
+            <div class="col-6">
+                <hr>
+                <h2>Datos del Empleado/Cliente</h2>
+                <form id="frmEmpleados" action="empleados.php" method="post">
+                    <table class="table table-success table-striped table-bordered table-hover">
+                        <tr>
+                            <td>
+                                *Id empleados:
+                            </td>
+                            <td>
+                                <input id="idEmpleados" name="idEmpleados" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *Nombre empleados:
+                            </td>
+                            <td>
+                                <input id="Nombre" name="Nombre" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *Apellido Paterno:
+                            </td>
+                            <td>
+                                <input id="Apellido_p" name="Apellido_p" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *Apellido Materno:
+                            </td>
+                            <td>
+                                <input id="Apellido_m" name="Apellido_m" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *Correo:
+                            </td>
+                            <td>
+                                <input id="Correo" name="Correo" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *Contraseña:
+                            </td>
+                            <td>
+                                <input id="Password" name="Password" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *Genero:
+                            </td>
+                            <td>
+                                <select name="Genero" id="Genero"
+                                class="form-select">
+                                   <option selected>Abrir menú</option>
+                                    <option value="Masculino">Masculino</option>
+                                    <option value="Femenino">Femenino</option>
+                                    <option value="No binario">No binario</option>
+                                    <option value="Hélicoptero Apache">Hélicoptero Apache</option>
+                                 
+    
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *telefono:
+                            </td>
+                            <td>
+                                <input id="Telefono" name="Telefono" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *RFC:
+                            </td>
+                            <td>
+                                <input id="RFC" name="RFC" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                *id tipos empleado:
+                            </td>
+                            <td>
+                                <input id="idTiposEmp" name="idTiposEmp" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *ID control:
+                            </td>
+                            <td>
+                                <input id="idControl" name="idControl" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                *ID usuario:
+                            </td>
+                            <td>
+                                <input id="idUsuario" name="idUsuario" type="text" class="form-control">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="Guardar" name="Guardar" type="submit" value="Guardar" class="btn btn-primary btn-mini">
+                            </td>
+                            <td>
+                                <input id="Borrar" type="reset" value="Eliminar" class="btn btn-danger btn-mini">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="col">
+              
+            </div>
+        </div>
+    </div>
+</body>
+</center>
+</html>
