@@ -12,7 +12,7 @@ rel="stylesheet"
 crossorigin="anonymous">
     </head>
     <body>
-    <center>jkhjhjhjhkhjkhkh
+    <center>
     <div class= "container text-center">
             <div class="row">
                 <div class= "col">
